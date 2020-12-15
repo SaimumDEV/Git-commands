@@ -1,34 +1,35 @@
 # git-commands
-Essential about git commands and learning
 
+Essential about git commands and learning
 
 # Useful Git Commands
 
-You can also read the [Portuguese](translation/README.pt-br.md) version.
+You can also read the [command](README.md) version.
 
 ## About it
-> Have you recently started using Git? This should give you the base commands you need to perform the most common actions in Git. If you find a command that is not here, or could be explained better, please don't hesitate in * [Contributing](#contributing). Cheers!
+
+> Have you recently started using Git? This should give you the base commands you need to perform the most common actions in Git. If you find a command that is not here, or could be explained better, please don't hesitate in \* [Contributing](#contributing). Cheers!
 
 ## Table of contents
 
-* [Install git](#install-git)
-* [Setting up git](#setting-up-git)
-* [Applying colour to git ](#applying-colour-to-git)
-* [Initializing a repository in an existing directory](#initializing-a-repository-in-an-existing-directory)
-* [Checking the status of your files](#checking-the-status-of-your-files)
-* [Staging files](#staging-files)
-* [Stashing files](#stashing-files)
-* [Committing files](#committing-files)
-* [Branching and merging](#branching-and-merging)
-* [Resetting](#resetting)
-* [Git remote](#git-remote)
-* [Git grep](#git-grep)
-* [Git blame](#git-blame)
-* [Git log](#git-log)
-* [Checking what you are committing](#checking-what-you-are-committing)
-* [Useful Commands](#useful-commands)
-* [Useful Alias](#useful-alias)
-* [Contributing](#contributing)
+- [Install git](#install-git)
+- [Setting up git](#setting-up-git)
+- [Applying colour to git ](#applying-colour-to-git)
+- [Initializing a repository in an existing directory](#initializing-a-repository-in-an-existing-directory)
+- [Checking the status of your files](#checking-the-status-of-your-files)
+- [Staging files](#staging-files)
+- [Stashing files](#stashing-files)
+- [Committing files](#committing-files)
+- [Branching and merging](#branching-and-merging)
+- [Resetting](#resetting)
+- [Git remote](#git-remote)
+- [Git grep](#git-grep)
+- [Git blame](#git-blame)
+- [Git log](#git-log)
+- [Checking what you are committing](#checking-what-you-are-committing)
+- [Useful Commands](#useful-commands)
+- [Useful Alias](#useful-alias)
+- [Contributing](#contributing)
 
 #### Git
 
@@ -50,12 +51,6 @@ $ git config --global user.name "User Name"
 $ git config --global user.email "email"
 ```
 
-##### Applying colour to git
-
-```sh
-$ git config --global color.ui true
-```
-
 ##### Initializing a repository in an existing directory
 
 If you’re starting to track an existing project in Git, you need to go to the project’s directory and type:
@@ -63,15 +58,17 @@ If you’re starting to track an existing project in Git, you need to go to the 
 ```sh
 $ git init
 ```
+
 This creates a new subdirectory named .git that contains all of your necessary repository files — a Git repository skeleton. At this point, nothing in your project is tracked yet.
 
-To start version-controlling existing files you should start by tracking those files and do an initial commit. To accomplish that you should start with a few  `$ git add` that specifies the files you want to track followed by a commit.
+To start version-controlling existing files you should start by tracking those files and do an initial commit. To accomplish that you should start with a few `$ git add` that specifies the files you want to track followed by a commit.
 
 ```sh
 $ git add <file>
 $ git add README
 $ git commit -m 'Initial project version'
 ```
+
 #### Checking the status of your files
 
 The main tool you use to determine which files are in which state is the `$ git status` command. If you run this command directly after a clone, you should see something like this:
@@ -403,6 +400,7 @@ $ git log --author="Author name" --pretty=tformat: --numstat --since=month | awk
 ```
 
 #### Useful alias
+
 To add an alias simply open your .gitconfig file on your home directory and include the alias code
 
 ```sh
