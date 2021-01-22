@@ -1,10 +1,11 @@
-# git-commands
+# Git-commands
 
 Essential about git commands and learning
 
-# Useful Git Commands
+# Other Links
 
-You can also read the [Alternative-1](commands.md) [Alternative-2](commands2.md) version.
+- [Alternative-1](commands.md) 
+- [Alternative-2](commands2.md) version.
 
 ## About it
 
