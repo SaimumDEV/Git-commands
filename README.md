@@ -4,7 +4,7 @@ Essential about git commands and learning
 
 # Useful Git Commands
 
-You can also read the [command](README.md) version.
+You can also read the [Alternative-1](commands.md) [Alternative-2](commands2.md) version.
 
 ## About it
 
