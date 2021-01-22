@@ -5,7 +5,7 @@ Essential about git commands and learning
 # Other Links
 
 - [Alternative-1](commands.md) 
-- [Alternative-2](commands2.md) version.
+- [Alternative-2](commands2.md)
 
 ## About it
 
