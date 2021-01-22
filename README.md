@@ -1,6 +1,6 @@
 # Git-commands
 
-Essential about git commands and learning
+Essential about git commands and learning(collected)
 
 # Other Links
 
